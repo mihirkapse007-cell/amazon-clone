@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+font-family: Arial, Helvetica, sans-serif;
+border: border-box;
+}
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+     align-items: center;
+     justify-content: space-evenly;
+}
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    height: 50px;
+    background-size:cover ;
+    width: 100%;
+}
+.border:hover{
+border: 1.4px solid white;
+}
+.add-frist{
+    color: #cccccc;
+    font-size: 0.85rem;
+   
+}
+.add-second{
+    font-size: 1rem;
+ display: flex;    
+ color: #ffffff;
+ 
+}
+.nav-search{
+      height: 40px;
+      display: flex;
+}
+.nav-search:hover{
+    border: 2px solid #febd68;
+    border-radius: 4px;
+}
+.search-input{
+    width: 650px;
+    border: none;
+    font-size: 1rem;
+     
+}
+.search-select{
+    
+    background-color: #f3f3f3;
+    width: 45px;
+    border-top-left-radius: 4px;
+      border-bottom-left-radius: 4px;
+      border: none;
+}
+.search-icon{
+    height: 40px;
+    width: 45px;
+    background-color: #febd68;
+    color:#0f1111;
+        border-top-right-radius: 4px;
+      border-bottom-right-radius: 4px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.2rem;
+}
+.language{
+    display: flex;
+
+}
+.lang{
+    background-color: #0F1111;
+  border-radius: 4px;
+  color: #f5f6f6;
+  border: none;
+}
+.flag-icon{
+    background-image: url(indian_flag.png);
+    height: 16.2px;
+    width: 21.2px;
+    background-size: cover;
+    display: flex;
+    margin: 4px;
+}
+
+span{
+    font-size: 0.7rem;
+}
+.nav-acc{
+font-size: 0.85rem;
+font-weight: 700;
+}
+.nav-cart{
+font-size: 1.2rem;
+font-weight: 700;
+}
+
+/* pannel */
+
+.pannel{
+    background-color:#232f3e;
+    height: 39px;
+    color: white;
+    display: flex;
+    align-items: center;
+justify-content: space-evenly;
+
+}
+.deals{
+    margin: 2px;
+    padding: 8px 5px;
+    font-weight: 500;
+}
+.se{
+ font-weight: 600;   
+}
+.space{
+width: 40%;
+}
+
+   /********** hero section ***********/
+
+   .hero_section{
+    background-image: url(hero_image.jpg);
+    background-image:linear-gradient(180deg,216, 240, 219);
+    height: 310px;
+    display: flex;
+      align-items: flex-end;
+      justify-content: center;
+    background-size:cover ;
+   }
+   .hero-message{
+    width: 85%;
+    height: 40px;
+    background-color:#f5f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  font-size: 0.85rem;
+  margin-bottom: 40px;
+   }
+   .hero-message a {
+    color: #007285;
+   }
+   .shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 900px;
+    background-color: #e3e6e6;
+   }
+   .box{
+    width: 23%;
+    height: 370px;
+  background-color: white;
+  margin-top: 15px;
+   }
+.box h2{
+    margin-top: 1rem;
+}
+   .back-img{
+    background-image: url(box1_image.jpg);
+    background-size:cover ;
+    height: 250px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+   
+   }
+   .box-content{
+     margin-left: 1rem;
+    margin-right: 1rem;
+   }
+    .box-content p{
+        color: #007285;
+    }
+       /* footer */
+
+       .footpannel-1{
+       background-color: #37575a;
+       color: white;
+       height: 50px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       font-size: 0.85rem;
+       font-weight: 600;
+       }
+       .footpannel-2{
+       background-color: #232f3e;
+       color: white;
+       height: 300px;
+       display: flex;
+       align-items:start;
+       justify-content: space-evenly;
+       }
+       ul a{
+        display: block;
+        font-size: 0.85rem;
+        margin: 10px;
+        color: #cccccc;
+       }
+       ul p{
+        font-weight: 600;
+       }
+       ul{
+        margin-top:40px ;
+        align-items: start;
+       }
+       ul a:hover{
+        text-decoration: underline;
+       }
+       
+       /* foooterpannel 3 */
+
+       .footpannel-3{
+          background-color: #232f3e;
+       color: white;
+       height: 100px;
+       border-top: 0.5px solid white;
+       display: flex;
+       justify-content: center;
+       }
+.app-logo{
+ background-image: url("amazon_logo.png");
+    height: 50px;
+    background-size:cover ;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.footpannel-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#cccccc;
+    background-color: #131a22;
+    height: 60px;
+}
